@@ -46,7 +46,7 @@ export function HeroSection() {
               asChild 
               size="lg" 
               variant="outline" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-base px-8"
+              className="border-white/50 bg-transparent text-white hover:bg-white/10 text-base px-8"
             >
               <Link to="/palvelut">Tutustu palveluihin</Link>
             </Button>
