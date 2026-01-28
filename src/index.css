@@ -29,8 +29,8 @@
     --secondary: 210 20% 96%;
     --secondary-foreground: 220 15% 15%;
 
-    /* Warm Orange - Heat, Energy, Action */
-    --accent: 20 85% 55%;
+    /* Dark Blue - CTA buttons, strong action */
+    --accent: 210 70% 25%;
     --accent-foreground: 0 0% 100%;
 
     --muted: 210 15% 95%;

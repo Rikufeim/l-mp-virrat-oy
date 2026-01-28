@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import logo from "@/assets/lampovirrat-logo.png";
 
 const navigation = [
   { name: "Etusivu", href: "/" },
@@ -54,14 +55,8 @@ export function Header() {
       <div className="container">
         <nav className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-xl">
-              L
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg font-bold text-foreground leading-tight">Lämpövirrat</span>
-              <span className="text-xs text-muted-foreground leading-tight">Oy</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img src={logo} alt="Lämpövirrat" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop navigation */}
