@@ -37,7 +37,7 @@ const Yritys = () => {
       <section className="bg-primary text-primary-foreground py-20">
         <div className="container">
           <div className="max-w-3xl">
-            <span className="text-sm font-semibold uppercase tracking-wider text-accent">
+            <span className="text-sm font-semibold uppercase tracking-wider text-white/80">
               Yritys
             </span>
             <h1 className="mt-2 text-4xl sm:text-5xl font-bold">

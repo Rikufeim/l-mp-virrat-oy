@@ -32,7 +32,7 @@ const LammitysIlmanvaihto = () => {
             <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary-foreground/10">
               <Thermometer className="h-7 w-7" />
             </div>
-            <span className="text-sm font-semibold uppercase tracking-wider text-accent">
+            <span className="text-sm font-semibold uppercase tracking-wider text-white/80">
               Palvelut
             </span>
           </div>
