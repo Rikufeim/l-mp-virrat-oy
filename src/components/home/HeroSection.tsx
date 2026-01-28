@@ -2,15 +2,12 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-lvi.jpg";
-
 export function HeroSection() {
-  return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
+  return <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
       {/* Background image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 hero-overlay" />
       </div>
 
@@ -24,7 +21,7 @@ export function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight text-balance">
+          <h1 className="text-4xl sm:text-5xl font-bold text-primary-foreground leading-tight text-balance lg:text-5xl">
             Luotettavaa LVI-osaamista Tampereen seudulla
           </h1>
 
@@ -42,12 +39,7 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button 
-              asChild 
-              size="lg" 
-              variant="outline" 
-              className="border-white/50 bg-transparent text-white hover:bg-white/10 text-base px-8"
-            >
+            <Button asChild size="lg" variant="outline" className="border-white/50 bg-transparent text-white hover:bg-white/10 text-base px-8">
               <Link to="/palvelut">Tutustu palveluihin</Link>
             </Button>
           </div>
@@ -69,6 +61,5 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
