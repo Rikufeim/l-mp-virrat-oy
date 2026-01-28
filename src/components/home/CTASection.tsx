@@ -6,7 +6,7 @@ export function CTASection() {
   return (
     <section className="bg-primary text-primary-foreground py-16 lg:py-20">
       <div className="container text-center space-y-6">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold max-w-3xl mx-auto text-balance">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold max-w-3xl mx-auto text-balance text-white">
           Varmista onnistunut LVI-projekti – ota yhteyttä asiantuntijoihin
         </h2>
         <p className="text-lg sm:text-xl text-primary-foreground/80 max-w-2xl mx-auto">
@@ -17,7 +17,8 @@ export function CTASection() {
           <Button 
             asChild 
             size="lg" 
-            className="bg-white hover:bg-white/90 text-primary text-base px-8 font-semibold"
+            variant="outline"
+            className="border-white/50 bg-transparent text-white hover:bg-white/10 text-base px-8"
           >
             <Link to="/yhteystiedot">
               Pyydä tarjous
@@ -28,7 +29,7 @@ export function CTASection() {
             asChild 
             size="lg" 
             variant="outline"
-            className="border-white/40 text-white hover:bg-white/10 text-base px-8"
+            className="border-white/50 bg-transparent text-white hover:bg-white/10 text-base px-8"
           >
             <a href="tel:+358401234567">
               <Phone className="mr-2 h-5 w-5" />
