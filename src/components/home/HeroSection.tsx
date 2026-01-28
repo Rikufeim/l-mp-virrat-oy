@@ -15,10 +15,7 @@ export function HeroSection() {
       <div className="container relative z-10 py-20">
         <div className="max-w-2xl space-y-6 animate-fade-in-up">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground border border-accent/30 backdrop-blur-sm">
-            <CheckCircle className="h-4 w-4" />
-            <span className="text-sm font-medium">Yli 35 vuoden kokemus</span>
-          </div>
+          
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl font-bold text-primary-foreground leading-tight text-balance lg:text-5xl">
