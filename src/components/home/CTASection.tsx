@@ -17,7 +17,7 @@ export function CTASection() {
           <Button 
             asChild 
             size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground text-base px-8"
+            className="bg-white hover:bg-white/90 text-primary text-base px-8 font-semibold"
           >
             <Link to="/yhteystiedot">
               Pyydä tarjous
@@ -28,7 +28,7 @@ export function CTASection() {
             asChild 
             size="lg" 
             variant="outline"
-            className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-base px-8"
+            className="border-white/40 text-white hover:bg-white/10 text-base px-8"
           >
             <a href="tel:+358401234567">
               <Phone className="mr-2 h-5 w-5" />
