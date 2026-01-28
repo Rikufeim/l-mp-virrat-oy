@@ -192,16 +192,20 @@ const Yhteystiedot = () => {
         </div>
       </section>
 
-      {/* Map placeholder */}
+      {/* Google Maps */}
       <section className="bg-secondary py-12">
         <div className="container">
-          <div className="bg-muted rounded-xl h-80 flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
-              <p className="text-muted-foreground">
-                Teollisuuskatu 15, 33100 Tampere
-              </p>
-            </div>
+          <div className="rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.9573484982642!2d23.7588!3d61.4978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468edf5b5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sTeollisuuskatu%2015%2C%2033100%20Tampere!5e0!3m2!1sfi!2sfi!4v1642512345678!5m2!1sfi!2sfi"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lämpövirrat Oy:n sijainti"
+            ></iframe>
           </div>
         </div>
       </section>
